@@ -1,0 +1,22 @@
+{
+  "name": "mysql-binlog",
+  "version": "1.0.0",
+  "description": "## 连接mysql - mysql -h 127.0.0.1 -uroot -proot",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingchaolin/mysql-binlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dingchaolin/mysql-binlog/issues"
+  },
+  "homepage": "https://github.com/dingchaolin/mysql-binlog#readme",
+  "dependencies": {
+    "zongji": "^0.4.4"
+  }
+}
