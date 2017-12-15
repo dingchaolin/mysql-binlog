@@ -91,6 +91,11 @@ mysql5.6.5以后的版本中binlog_checksum=crc32，而低版本都是binlog_che
 - table_name 表名
 
 
+# ddl
+- ALTER TABLE `doc`.`test` CHANGE COLUMN `name` `name1` varchar(255) DEFAULT NULL
+
+# find
+- SELECT COLUMN_NAME, COLLATION_NAME, CHARACTER_SET_NAME, COLUMN_COMMENT, COLUMN_TYPE FROM columns WHERE table_schema='zentao' AND table_name='zt_cron'
 
 
 
